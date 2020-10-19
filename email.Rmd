@@ -1,0 +1,17 @@
+---
+title: "My title"
+output:
+  blastula::blastula_email:
+    template: mytemplate.html
+---
+
+This is a test email.
+
+$$
+y = a + bx + cx^2
+$$
+
+```{r}
+x <- 1:10
+summary(x)
+```
